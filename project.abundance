@@ -144,8 +144,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.6600529100529101,
-          "y": 0.7325905292479109,
+          "x": 0.6620370370370371,
+          "y": 0.7270194986072424,
           "uniqueID": "id-183537",
           "ioValues": [
             {
@@ -168,8 +168,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.27380952380952384,
-          "y": 0.43732590529247906,
+          "x": 0.27314814814814814,
+          "y": 0.4428969359331476,
           "uniqueID": "id-183561",
           "name": "Bearing and Pocket Lower",
           "topLevel": false,
@@ -237,10 +237,6 @@
               "y": 0.40668523676880225,
               "uniqueID": "id-183566",
               "ioValues": [
-                {
-                  "name": "Shape 1",
-                  "ioValue": null
-                },
                 {
                   "name": "Shape 2",
                   "ioValue": null
@@ -365,8 +361,8 @@
             },
             {
               "atomType": "Extrude",
-              "x": 0.4444444444444444,
-              "y": 0.4512534818941504,
+              "x": 0.4424603174603175,
+              "y": 0.40668523676880225,
               "uniqueID": "id-183574",
               "ioValues": [
                 {
@@ -375,14 +371,15 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 5
+                  "ioValue": 5,
+                  "currentEquation": "5"
                 }
               ]
             },
             {
               "atomType": "Move",
-              "x": 0.511904761904762,
-              "y": 0.4958217270194986,
+              "x": 0.5145502645502645,
+              "y": 0.5181058495821727,
               "uniqueID": "id-183575",
               "ioValues": [
                 {
@@ -405,8 +402,8 @@
             },
             {
               "atomType": "Color",
-              "x": 0.5747354497354497,
-              "y": 0.467966573816156,
+              "x": 0.5753968253968255,
+              "y": 0.46239554317548753,
               "uniqueID": "id-183576",
               "ioValues": [
                 {
@@ -680,8 +677,8 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.3419312169312169,
-              "y": 0.40111420612813375,
+              "x": 0.3472222222222222,
+              "y": 0.415041782729805,
               "uniqueID": "id-183588",
               "name": "2D_Slice",
               "ioValues": [
@@ -2334,7 +2331,7 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.28835978835978837,
+              "x": 0.28505291005291006,
               "y": 0.22005571030640667,
               "uniqueID": "id-183657",
               "name": "Add_Clearance",
@@ -2349,7 +2346,8 @@
                 },
                 {
                   "name": "Height",
-                  "ioValue": 3
+                  "ioValue": 4.5,
+                  "currentEquation": "4.5"
                 }
               ],
               "topLevel": false,
@@ -2400,7 +2398,7 @@
                     },
                     {
                       "name": "height",
-                      "ioValue": 3
+                      "ioValue": 4.5
                     }
                   ]
                 },
@@ -2842,7 +2840,128 @@
                           "ioValues": [
                             {
                               "name": "Shape 1",
-                              "ioValue": null
+                              "ioValue": {
+                                "geometry": [
+                                  {
+                                    "geometry": "5ea22352-{\"geometry\":\"move-circle-1.6-0-12.5-0\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}-4-60-8",
+                                    "dimension": "2D",
+                                    "tags": [],
+                                    "plane": {
+                                      "origin": [
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                      ],
+                                      "normal": [
+                                        0,
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    "color": "#aad7f2",
+                                    "bom": []
+                                  },
+                                  {
+                                    "geometry": "5ea22352-{\"geometry\":\"move-circle-1.6-0-12.5-0\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}-4-60-9",
+                                    "dimension": "2D",
+                                    "tags": [],
+                                    "plane": {
+                                      "origin": [
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                      ],
+                                      "normal": [
+                                        0,
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    "color": "#aad7f2",
+                                    "bom": []
+                                  },
+                                  {
+                                    "geometry": "5ea22352-{\"geometry\":\"move-circle-1.6-0-12.5-0\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}-4-60-10",
+                                    "dimension": "2D",
+                                    "tags": [],
+                                    "plane": {
+                                      "origin": [
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                      ],
+                                      "normal": [
+                                        0,
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    "color": "#aad7f2",
+                                    "bom": []
+                                  },
+                                  {
+                                    "geometry": "5ea22352-{\"geometry\":\"move-circle-1.6-0-12.5-0\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}-4-60-11",
+                                    "dimension": "2D",
+                                    "tags": [],
+                                    "plane": {
+                                      "origin": [
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                      ],
+                                      "normal": [
+                                        0,
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    "color": "#aad7f2",
+                                    "bom": []
+                                  }
+                                ],
+                                "plane": {
+                                  "origin": [
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "xDir": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "normal": [
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                },
+                                "tags": [],
+                                "color": "#aad7f2",
+                                "bom": [],
+                                "dimension": "2D",
+                                "nonReplicadSerialized": []
+                              }
                             }
                           ],
                           "unionType": "Fusion"
@@ -4236,11 +4355,6 @@
               "ap2Name": "geometry",
               "ap1ID": "id-183575",
               "ap2ID": "id-183576"
-            },
-            {
-              "ap2Name": "Shape 1",
-              "ap1ID": "id-183576",
-              "ap2ID": "id-183566"
             },
             {
               "ap2Name": "Shape",
@@ -11738,8 +11852,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.5687830687830687,
-          "y": 0.7437325905292479,
+          "x": 0.5634920634920635,
+          "y": 0.807799442896936,
           "uniqueID": "id-185600",
           "name": "Roller Part",
           "topLevel": false,
@@ -12503,8 +12617,8 @@
             },
             {
               "atomType": "Fusion",
-              "x": 0.6461640211640212,
-              "y": 0.2116991643454039,
+              "x": 0.511904761904762,
+              "y": 0.15877437325905294,
               "uniqueID": "id-185728",
               "ioValues": [
                 {
@@ -12631,8 +12745,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.6723544973544974,
-              "y": 0.4959610027855153,
+              "x": 0.6832010582010583,
+              "y": 0.766016713091922,
               "uniqueID": "id-185733",
               "ioValues": [
                 {
@@ -12829,6 +12943,22 @@
                   "ioValue": null
                 }
               ]
+            },
+            {
+              "atomType": "Tag",
+              "x": 0.6891534391534391,
+              "y": 0.36768802228412256,
+              "uniqueID": "id-185827",
+              "name": "Roller",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "tags": [
+                "Roller"
+              ]
             }
           ],
           "allConnectors": [
@@ -12863,9 +12993,9 @@
               "ap2ID": "id-185728"
             },
             {
-              "ap2Name": "Shape 1",
+              "ap2Name": "geometry",
               "ap1ID": "id-185728",
-              "ap2ID": "id-185766"
+              "ap2ID": "id-185827"
             },
             {
               "ap2Name": "Shape 2",
@@ -12886,6 +13016,11 @@
               "ap2Name": "number or geometry",
               "ap1ID": "id-185766",
               "ap2ID": "id-185602"
+            },
+            {
+              "ap2Name": "Shape 1",
+              "ap1ID": "id-185827",
+              "ap2ID": "id-185766"
             }
           ],
           "fileTypeVersion": 1
@@ -12893,7 +13028,7 @@
         {
           "atomType": "GitHubMolecule",
           "x": 0.8247354497354497,
-          "y": 0.7632311977715878,
+          "y": 0.7548746518105849,
           "uniqueID": "id-185790",
           "name": "Cross-Section",
           "ioValues": [
@@ -13143,6 +13278,21 @@
           "unitsKey": "MM",
           "fileTypeVersion": 1,
           "lastReloadedFromGithubAt": 1778189347176
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.7923280423280423,
+          "y": 0.2813370473537604,
+          "uniqueID": "id-185824",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tag": "Roller",
+          "tagIndex": 0
         }
       ],
       "allConnectors": [
@@ -13165,6 +13315,11 @@
           "ap2Name": "Geometry",
           "ap1ID": "id-183536",
           "ap2ID": "id-185790"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-183536",
+          "ap2ID": "id-185824"
         },
         {
           "ap2Name": "Shape 4",
