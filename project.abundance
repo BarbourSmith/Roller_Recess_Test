@@ -13248,6 +13248,443 @@
           "resolution": 96,
           "importIndex": 0,
           "partName": "Roller"
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.746031746031746,
+          "y": 0.8328690807799443,
+          "uniqueID": "id-185839",
+          "name": "Base Plate",
+          "ioValues": [
+            {
+              "name": "input",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-185841",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
+              "uniqueID": "id-185843",
+              "name": "input",
+              "type": "geometry"
+            },
+            {
+              "atomType": "ExtractTag",
+              "x": 0.21759259259259256,
+              "y": 0.6991643454038997,
+              "uniqueID": "id-185846",
+              "name": "Extract Tag",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "tag": "Lower Plastic",
+              "tagIndex": 0
+            },
+            {
+              "atomType": "GitHubMolecule",
+              "x": 0.3611111111111111,
+              "y": 0.9108635097493036,
+              "uniqueID": "id-185860",
+              "name": "Concentric_Circles",
+              "ioValues": [
+                {
+                  "name": "OD",
+                  "ioValue": 32
+                },
+                {
+                  "name": "ID",
+                  "ioValue": 8
+                }
+              ],
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-185854",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.025384615384615384,
+                  "y": 0.15384615384615385,
+                  "uniqueID": "id-185855",
+                  "name": "OD",
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.025384615384615384,
+                  "y": 0.24615384615384617,
+                  "uniqueID": "id-185856",
+                  "name": "ID",
+                  "type": "number"
+                },
+                {
+                  "atomType": "Circle",
+                  "x": 0.460559796437659,
+                  "y": 0.42567567567567566,
+                  "uniqueID": "id-185857",
+                  "ioValues": [
+                    {
+                      "name": "diameter",
+                      "ioValue": 32
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Circle",
+                  "x": 0.44529262086514,
+                  "y": 0.7263513513513513,
+                  "uniqueID": "id-185858",
+                  "ioValues": [
+                    {
+                      "name": "diameter",
+                      "ioValue": 8
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Difference",
+                  "x": 0.6615776081424937,
+                  "y": 0.5506756756756757,
+                  "uniqueID": "id-185859",
+                  "ioValues": [
+                    {
+                      "name": "retain",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "remove",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap2Name": "diameter",
+                  "ap1ID": "id-185855",
+                  "ap2ID": "id-185857"
+                },
+                {
+                  "ap2Name": "diameter",
+                  "ap1ID": "id-185856",
+                  "ap2ID": "id-185858"
+                },
+                {
+                  "ap2Name": "retain",
+                  "ap1ID": "id-185857",
+                  "ap2ID": "id-185859"
+                },
+                {
+                  "ap2Name": "remove",
+                  "ap1ID": "id-185858",
+                  "ap2ID": "id-185859"
+                },
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-185859",
+                  "ap2ID": "id-185854"
+                }
+              ],
+              "parentRepo": {
+                "lastFoundGit": "2026-05-07T18:23:39.204Z",
+                "privateRepo": false,
+                "repoName": "Concentric_Circles",
+                "dateCreated": "2025-11-08T04:08:14Z",
+                "likes": 0,
+                "readMe": "https://raw.githubusercontent.com/BarbourSmith/Concentric_Circles/master/README.md?sanitize=true",
+                "yyyy": 2025,
+                "topMoleculeID": "id-1170",
+                "githubMoleculesUsed": [],
+                "html_url": "https://github.com/BarbourSmith/Concentric_Circles",
+                "topics": [],
+                "parentRepo": null,
+                "forks": 0,
+                "dateModified": "739563",
+                "ranking": 20.7,
+                "searchField": "concentric_circles barboursmith creates two concentric circles. the result is 2d ",
+                "owner": "BarbourSmith",
+                "description": "Creates two concentric circles. The result is 2D",
+                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Concentric_Circles/master/project.abundance?sanitize=true",
+                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Concentric_Circles/master/project.svg?sanitize=true",
+                "isLocal": false
+              },
+              "unitsKey": "Unitless",
+              "fileTypeVersion": 1,
+              "lastReloadedFromGithubAt": 1778195067102
+            },
+            {
+              "atomType": "Fusion",
+              "x": 0.4887566137566138,
+              "y": 0.27298050139275765,
+              "uniqueID": "id-185876",
+              "ioValues": [
+                {
+                  "name": "Shape 1",
+                  "ioValue": {
+                    "geometry": [
+                      {
+                        "geometry": [
+                          {
+                            "geometry": "move-cut-cut-move-cut-cut-cut-cut-move-extrude-circle-8.625-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4.9-0-0--1-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-cut-extrude-ee085c88-{\"geometry\":\"d4a9ca1e-{\\\"geometry\\\":\\\"extrude-cut-circle-7-circle-4-{\\\\\\\"origin\\\\\\\":[0,0,0],\\\\\\\"xDir\\\\\\\":[1,0,0],\\\\\\\"normal\\\\\\\":[0,0,1]}-4\\\",\\\"dimension\\\":\\\"3D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[{\\\"BOMitemName\\\":\\\"148ZZ Bearing\\\",\\\"numberNeeded\\\":1,\\\"costUSD\\\":0.2,\\\"source\\\":\\\"https://shop.maslowcnc.com/products/148zz-bearing\\\"}]}-0\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[{\"BOMitemName\":\"148ZZ Bearing\",\"numberNeeded\":1,\"costUSD\":0.2,\"source\":\"https://shop.maslowcnc.com/products/148zz-bearing\"}]}-0.25-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4.5-extrude-cut-circle-7-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-extrude-cut-circle-7-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--10-0-0-4-move-cut-fuse-cut-cut-fuse-fuse-880706d0-35-5.5-0-move-extrude-circle-5.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6.5-0-0--0.5-move-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-14.5-0-0--4.5-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--10-extrude-circle-9-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6-move-extrude-circle-3.2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3.2-0-0-0-0-0-4.5-move-move-extrude-circle-3.2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3.2-0-0-0-0-0-4.5-0-0--3",
+                            "dimension": "3D",
+                            "tags": [
+                              "Lower Plastic"
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#C4D3AC",
+                            "bom": []
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "tags": [],
+                        "bom": [
+                          {
+                            "BOMitemName": "148ZZ Bearing",
+                            "numberNeeded": 1,
+                            "costUSD": 0.2,
+                            "source": "https://shop.maslowcnc.com/products/148zz-bearing"
+                          },
+                          {
+                            "BOMitemName": "148ZZ Bearing",
+                            "numberNeeded": 1,
+                            "costUSD": 0.2,
+                            "source": "https://shop.maslowcnc.com/products/148zz-bearing"
+                          }
+                        ],
+                        "nonReplicadSerialized": {}
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": [
+                      {
+                        "BOMitemName": "148ZZ Bearing",
+                        "numberNeeded": 1,
+                        "costUSD": 0.2,
+                        "source": "https://shop.maslowcnc.com/products/148zz-bearing"
+                      },
+                      {
+                        "BOMitemName": "148ZZ Bearing",
+                        "numberNeeded": 1,
+                        "costUSD": 0.2,
+                        "source": "https://shop.maslowcnc.com/products/148zz-bearing"
+                      },
+                      {
+                        "BOMitemName": "148ZZ Bearing",
+                        "numberNeeded": 1,
+                        "costUSD": 0.2,
+                        "source": "https://shop.maslowcnc.com/products/148zz-bearing"
+                      },
+                      {
+                        "BOMitemName": "148ZZ Bearing",
+                        "numberNeeded": 1,
+                        "costUSD": 0.2,
+                        "source": "https://shop.maslowcnc.com/products/148zz-bearing"
+                      },
+                      {
+                        "BOMitemName": "148ZZ Bearing",
+                        "numberNeeded": 1,
+                        "costUSD": 0.2,
+                        "source": "https://shop.maslowcnc.com/products/148zz-bearing"
+                      },
+                      {
+                        "BOMitemName": "148ZZ Bearing",
+                        "numberNeeded": 1,
+                        "costUSD": 0.2,
+                        "source": "https://shop.maslowcnc.com/products/148zz-bearing"
+                      },
+                      {
+                        "BOMitemName": "New Item",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": ""
+                      }
+                    ],
+                    "nonReplicadSerialized": {}
+                  }
+                },
+                {
+                  "name": "Shape 2",
+                  "ioValue": {
+                    "geometry": "extrude-cut-circle-16-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  }
+                }
+              ],
+              "unionType": "Fusion"
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.42791005291005285,
+              "y": 0.7214484679665739,
+              "uniqueID": "id-185880",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": -1,
+                  "currentEquation": "-1"
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.3392857142857143,
+              "y": 0.2924791086350975,
+              "uniqueID": "id-185890",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": -3
+                }
+              ]
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-185843",
+              "ap2ID": "id-185846"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-185846",
+              "ap2ID": "id-185890"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-185860",
+              "ap2ID": "id-185880"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-185876",
+              "ap2ID": "id-185841"
+            },
+            {
+              "ap2Name": "Shape 2",
+              "ap1ID": "id-185880",
+              "ap2ID": "id-185876"
+            },
+            {
+              "ap2Name": "Shape 1",
+              "ap1ID": "id-185890",
+              "ap2ID": "id-185876"
+            }
+          ],
+          "fileTypeVersion": 1
         }
       ],
       "allConnectors": [
@@ -13275,6 +13712,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-183536",
           "ap2ID": "id-185824"
+        },
+        {
+          "ap2Name": "input",
+          "ap1ID": "id-183536",
+          "ap2ID": "id-185839"
         },
         {
           "ap2Name": "Shape 4",
