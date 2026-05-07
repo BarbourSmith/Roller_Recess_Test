@@ -19,18 +19,6 @@
       ]
     },
     {
-      "atomType": "Circle",
-      "x": 0.6382275132275131,
-      "y": 0.532033426183844,
-      "uniqueID": "id-183525",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
       "atomType": "Molecule",
       "x": 0.3313492063492064,
       "y": 0.520891364902507,
@@ -188,13 +176,13 @@
             },
             {
               "atomType": "Circle",
-              "x": 0.19444444444444442,
-              "y": 0.8551532033426184,
+              "x": 0.1970899470899471,
+              "y": 0.8774373259052926,
               "uniqueID": "id-183563",
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 16
+                  "ioValue": 17
                 }
               ]
             },
@@ -11852,8 +11840,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.5634920634920635,
-          "y": 0.807799442896936,
+          "x": 0.5628306878306878,
+          "y": 0.8328690807799443,
           "uniqueID": "id-185600",
           "name": "Roller Part",
           "topLevel": false,
@@ -11872,8 +11860,8 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.10383597883597884,
-              "y": 0.20055710306406688,
+              "x": 0.10582010582010583,
+              "y": 0.1977715877437326,
               "uniqueID": "id-185604",
               "name": "Roller Part",
               "topLevel": false,
@@ -11978,7 +11966,7 @@
                     {
                       "name": "Shape 2",
                       "ioValue": {
-                        "geometry": "880706d0-34-5.5-0",
+                        "geometry": "880706d0-38-5.5-0",
                         "color": "#ffffff",
                         "tags": [],
                         "bom": [],
@@ -12210,7 +12198,8 @@
                   "ioValues": [
                     {
                       "name": "Number_of_Teeth",
-                      "ioValue": 34
+                      "ioValue": 38,
+                      "currentEquation": "38"
                     },
                     {
                       "name": "Height",
@@ -12253,7 +12242,7 @@
                       "ioValues": [
                         {
                           "name": "numberOfTeeth",
-                          "ioValue": 34
+                          "ioValue": 38
                         },
                         {
                           "name": "faceWidth",
@@ -12542,21 +12531,20 @@
             },
             {
               "atomType": "Circle",
-              "x": 0.05952380952380952,
-              "y": 0.5097493036211699,
+              "x": 0.06216931216931217,
+              "y": 0.5041782729805014,
               "uniqueID": "id-185710",
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 17,
-                  "currentEquation": "17"
+                  "ioValue": 18
                 }
               ]
             },
             {
               "atomType": "Extrude",
-              "x": 0.2003968253968254,
-              "y": 0.40111420612813375,
+              "x": 0.20105820105820105,
+              "y": 0.40668523676880225,
               "uniqueID": "id-185713",
               "ioValues": [
                 {
@@ -12572,8 +12560,8 @@
             },
             {
               "atomType": "Difference",
-              "x": 0.30158730158730157,
-              "y": 0.20334261838440112,
+              "x": 0.30092592592592593,
+              "y": 0.1949860724233983,
               "uniqueID": "id-185717",
               "ioValues": [
                 {
@@ -12589,7 +12577,7 @@
             {
               "atomType": "Circle",
               "x": 0.28968253968253965,
-              "y": 0.5877437325905293,
+              "y": 0.6016713091922006,
               "uniqueID": "id-185721",
               "ioValues": [
                 {
@@ -12653,7 +12641,7 @@
                   "ioValue": {
                     "geometry": [
                       {
-                        "geometry": "cut-cut-cut-fuse-fuse-880706d0-34-5.5-0-move-extrude-circle-5.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6.5-0-0--0.5-move-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-14.5-0-0--4.5-move-extrude-circle-3.2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3.2-0-0--4.6-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--10-extrude-circle-8.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4",
+                        "geometry": "cut-cut-cut-fuse-fuse-880706d0-38-5.5-0-move-extrude-circle-5.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6.5-0-0--0.5-move-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-14.5-0-0--4.5-move-extrude-circle-3.2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3.2-0-0--4.6-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--10-extrude-circle-9-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -13393,7 +13381,7 @@
   "allConnectors": [
     {
       "ap2Name": "number or geometry",
-      "ap1ID": "id-183525",
+      "ap1ID": "id-183531",
       "ap2ID": "id-183518"
     }
   ],
