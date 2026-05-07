@@ -182,7 +182,8 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 17
+                  "ioValue": 17.25,
+                  "currentEquation": "17.25"
                 }
               ]
             },
@@ -11840,8 +11841,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.5628306878306878,
-          "y": 0.8328690807799443,
+          "x": 0.5654761904761905,
+          "y": 0.8245125348189415,
           "uniqueID": "id-185600",
           "name": "Roller Part",
           "topLevel": false,
@@ -11860,8 +11861,8 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.10582010582010583,
-              "y": 0.1977715877437326,
+              "x": 0.10846560846560847,
+              "y": 0.17270194986072424,
               "uniqueID": "id-185604",
               "name": "Roller Part",
               "topLevel": false,
@@ -11966,7 +11967,7 @@
                     {
                       "name": "Shape 2",
                       "ioValue": {
-                        "geometry": "880706d0-38-5.5-0",
+                        "geometry": "880706d0-35-5.5-0",
                         "color": "#ffffff",
                         "tags": [],
                         "bom": [],
@@ -12074,8 +12075,8 @@
                 },
                 {
                   "atomType": "Assembly",
-                  "x": 0.6832010582010583,
-                  "y": 0.21448467966573817,
+                  "x": 0.611111111111111,
+                  "y": 0.44568245125348194,
                   "uniqueID": "id-185613",
                   "ioValues": [
                     {
@@ -12198,8 +12199,7 @@
                   "ioValues": [
                     {
                       "name": "Number_of_Teeth",
-                      "ioValue": 38,
-                      "currentEquation": "38"
+                      "ioValue": 35
                     },
                     {
                       "name": "Height",
@@ -12242,7 +12242,7 @@
                       "ioValues": [
                         {
                           "name": "numberOfTeeth",
-                          "ioValue": 38
+                          "ioValue": 35
                         },
                         {
                           "name": "faceWidth",
@@ -12467,6 +12467,11 @@
                   "ap2ID": "id-185613"
                 },
                 {
+                  "ap2Name": "retain",
+                  "ap1ID": "id-185609",
+                  "ap2ID": "id-185629"
+                },
+                {
                   "ap2Name": "geometry",
                   "ap1ID": "id-185610",
                   "ap2ID": "id-185611"
@@ -12480,11 +12485,6 @@
                   "ap2Name": "Shape 3",
                   "ap1ID": "id-185612",
                   "ap2ID": "id-185609"
-                },
-                {
-                  "ap2Name": "retain",
-                  "ap1ID": "id-185613",
-                  "ap2ID": "id-185629"
                 },
                 {
                   "ap2Name": "Shape 2",
@@ -12639,63 +12639,11 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": [
-                      {
-                        "geometry": "cut-cut-cut-fuse-fuse-880706d0-38-5.5-0-move-extrude-circle-5.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6.5-0-0--0.5-move-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-14.5-0-0--4.5-move-extrude-circle-3.2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3.2-0-0--4.6-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--10-extrude-circle-9-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4",
-                        "tags": [],
-                        "bom": [],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "dimension": "3D"
-                      },
-                      {
-                        "geometry": "cut-move-extrude-circle-3.2-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3.2-0-0--4.6-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--10",
-                        "dimension": "3D",
-                        "tags": [],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#CFAB7C",
-                        "bom": [
-                          {
-                            "BOMitemName": "New Item",
-                            "numberNeeded": 1,
-                            "costUSD": 0,
-                            "source": ""
-                          }
-                        ]
-                      }
+                    "geometry": "cut-cut-fuse-fuse-880706d0-35-5.5-0-move-extrude-circle-5.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6.5-0-0--0.5-move-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-14.5-0-0--4.5-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--10-extrude-circle-9-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4",
+                    "tags": [
+                      "Roller"
                     ],
+                    "bom": [],
                     "plane": {
                       "origin": [
                         0,
@@ -12714,18 +12662,7 @@
                       ]
                     },
                     "color": "#aad7f2",
-                    "tags": [
-                      "Roller"
-                    ],
-                    "bom": [
-                      {
-                        "BOMitemName": "New Item",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": ""
-                      }
-                    ],
-                    "nonReplicadSerialized": []
+                    "dimension": "3D"
                   }
                 }
               ],
