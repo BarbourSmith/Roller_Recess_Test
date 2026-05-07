@@ -13307,7 +13307,7 @@
               "ioValues": [
                 {
                   "name": "OD",
-                  "ioValue": 32
+                  "ioValue": 43
                 },
                 {
                   "name": "ID",
@@ -13352,7 +13352,7 @@
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 32
+                      "ioValue": 43
                     }
                   ]
                 },
@@ -13583,7 +13583,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "extrude-cut-circle-16-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1",
+                    "geometry": "extrude-cut-circle-21.5-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--2",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -13612,8 +13612,8 @@
             },
             {
               "atomType": "Extrude",
-              "x": 0.42791005291005285,
-              "y": 0.7214484679665739,
+              "x": 0.4212962962962963,
+              "y": 0.7019498607242339,
               "uniqueID": "id-185880",
               "ioValues": [
                 {
@@ -13622,8 +13622,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": -1,
-                  "currentEquation": "-1"
+                  "ioValue": -2
                 }
               ]
             },
@@ -13650,6 +13649,36 @@
                   "ioValue": -3
                 }
               ]
+            },
+            {
+              "atomType": "Export",
+              "x": 0.6917989417989417,
+              "y": 0.7047353760445683,
+              "uniqueID": "id-185900",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "File Type",
+                  "ioValue": "STL",
+                  "currentEquation": "STL"
+                },
+                {
+                  "name": "Resolution (dpi)",
+                  "ioValue": 96
+                },
+                {
+                  "name": "Part Name",
+                  "ioValue": "Base Plate",
+                  "currentEquation": "Base Plate"
+                }
+              ],
+              "type": null,
+              "resolution": 96,
+              "importIndex": 0,
+              "partName": "Base Plate"
             }
           ],
           "allConnectors": [
@@ -13672,6 +13701,11 @@
               "ap2Name": "number or geometry",
               "ap1ID": "id-185876",
               "ap2ID": "id-185841"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-185876",
+              "ap2ID": "id-185900"
             },
             {
               "ap2Name": "Shape 2",
